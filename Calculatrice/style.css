@@ -1,0 +1,54 @@
+.container {
+    margin: auto;
+
+}
+h1 {
+    font-size: 50px;
+    font-family:  Arial, Helvetica, sans-serif;
+
+}
+.calc {
+    height: 370px;
+    background: #423939;
+    padding: 20px;
+    border-radius: 20px;
+    display: inline-block;
+
+}
+#ansewer {
+    background: #ffffff;
+    width: 370px;
+    height: 40px;
+    color: black;
+    border-radius: 12px;
+    padding-right: 10px;
+    margin-bottom: 20px;
+    text-align: right;
+    letter-spacing: 1px;
+}
+input {
+    font-size: 30px;
+    width: 60px;
+    height: 55px;
+    background: rgb(12, 58, 143);
+    border-radius: 15px;
+    margin: 8px;
+    outline: none;
+    border: 0px solid;
+}
+input[type="button"]:hover {
+    cursor: pointer;
+    background: #e00707;
+
+}
+.btn-gr{
+    background-color: gold;
+}
+.btn-yellow {
+    background-color: rgb(45, 199, 84);
+
+}
+body{
+    background-image: url(math6.jpg);
+    background-size: cover;
+}
